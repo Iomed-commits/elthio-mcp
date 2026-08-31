@@ -1,0 +1,27 @@
+{
+  "name": "io.github.iomed-commits/elthio-mcp",
+  "description": "Supplement safety verification for AI agents. Drug-supplement interactions, quality grading A-D, NIH label verification, filler detection, and timing recommendations. 334 rules from NIH ODS and FDA FAERS.",
+  "repository": {
+    "url": "https://github.com/Iomed-commits/elthio-mcp",
+    "source": "github"
+  },
+  "homepage": "https://elthio.health",
+  "license": "MIT",
+  "categories": ["health", "safety"],
+  "tags": [
+    "supplements",
+    "drug-interactions",
+    "NIH",
+    "FDA",
+    "health",
+    "safety",
+    "agentic-commerce",
+    "pharmacy"
+  ],
+  "remotes": [
+    {
+      "transportType": "http",
+      "url": "https://elthio-production.up.railway.app/mcp"
+    }
+  ]
+}
